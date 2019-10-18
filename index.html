@@ -2,163 +2,348 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/dashboard.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/dashboard.css">
 </head>
 
 <body>
-    <!--#region barra de navegação superior-->
-    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">SENAI - web dev</a>
-        <ul class="navbar-nav px-3">
-            <li class="nav-item text-nowrap">
-                <a class="nav-link" href="#">Sign out</a>
+  <!--#region barra de navegação superior-->
+  <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">SENAI - web dev</a>
+    <ul class="navbar-nav px-3">
+      <li class="nav-item text-nowrap">
+        <a class="nav-link" href="#">Sign out</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- #endregion -->
+  <div class="container-fluid">
+    <div class="row">
+      <!--#region Barra de navegação esquerda-->
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">
+                <span data-feather="home"></span>
+                DashBoard <span class="sr-only">(current)</span>
+              </a>
             </li>
-        </ul>
-    </nav>
-    <!-- #endregion -->
-    <div class="container-fluid">
-        <div class="row">
-            <!--#region Barra de navegação esquerda-->
-            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-                <div class="sidebar-sticky">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">
-                                <span data-feather="home"></span>
-                                DashBoard <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="exercicio-01.html">
-                                <span data-feather="file-text"></span>
-                                Exercicio 01
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="exercicio-02.html">
-                                <span data-feather="file-text"></span>
-                                Exercicio 02
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="exercicio-03.html">
-                                <span data-feather="file-text"></span>
-                                Exercicio 03
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="exercicio-04.html">
-                                <span data-feather="file-text"></span>
-                                Exercicio 04
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="exercicio-05.html">
-                                <span data-feather="file-text"></span>
-                                Exercicio 05
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="exercicio-06.html">
-                                <span data-feather="file-text"></span>
-                                Exercicio 06
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="exercicio-07.html">
-                                <span data-feather="file-text"></span>
-                                Exercicio 07
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="exercicio-08.html">
-                                <span data-feather="file-text"></span>
-                                Exercicio 08
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="exercicio-09.html">
-                                <span data-feather="file-text"></span>
-                                Exercicio 09
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="exercicio-10.html">
-                                <span data-feather="file-text"></span>
-                                Exercicio 10
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!--#endregion-->
-            <!--#region Conteudo Principal-->
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-                <div
-                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Dashboard</h1>
-                </div>
-                <div class="accordion" id="accordionExample">
-                        <div class="card">
-                          <div class="card-header" id="bloco01">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#exercicio01" aria-expanded="true" aria-controls="bloco01">
-                                Exercicio 01
-                              </button>
-                            </h5>
-                          </div>
-                      
-                          <div id="exercicio01" class="collapse show" aria-labelledby="bloco01" data-parent="#accordionExample">
-                            <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non alemanha 0 x 2 coreia do sul cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <div class="card-header" id="bloco02">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio02" aria-expanded="false" aria-controls="bloco02">
-                                Exercicio 02
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="exercicio02" class="collapse" aria-labelledby="bloco02" data-parent="#accordionExample">
-                            <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <div class="card-header" id="bloco03">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio03" aria-expanded="false" aria-controls="bloco03">
-                                Exercicio 03
-                            </button>
-                            </h5>
-                          </div>
-                          <div id="exercicio03" class="collapse" aria-labelledby="bloco03" data-parent="#accordionExample">
-                            <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-            </main>
-            <!--#endregion-->
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio-01.html">
+                <span data-feather="file-text"></span>
+                Exercicio 01
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio-02.html">
+                <span data-feather="file-text"></span>
+                Exercicio 02
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio-03.html">
+                <span data-feather="file-text"></span>
+                Exercicio 03
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio-04.html">
+                <span data-feather="file-text"></span>
+                Exercicio 04
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio-05.html">
+                <span data-feather="file-text"></span>
+                Exercicio 05
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio-06.html">
+                <span data-feather="file-text"></span>
+                Exercicio 06
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio-07.html">
+                <span data-feather="file-text"></span>
+                Exercicio 07
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio-08.html">
+                <span data-feather="file-text"></span>
+                Exercicio 08
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio-09.html">
+                <span data-feather="file-text"></span>
+                Exercicio 09
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercicio-10.html">
+                <span data-feather="file-text"></span>
+                Exercicio 10
+              </a>
+            </li>
+          </ul>
         </div>
-    </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+      </nav>
+      <!--#endregion-->
+      <!--#region Conteudo Principal-->
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h2">Dashboard</h1>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="bloco01">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#exercicio01"
+                  aria-expanded="true" aria-controls="bloco01">
+                  Exercicio 01
+                </button>
+              </h5>
+            </div>
 
-        <script>
-                feather.replace()
-              </script>
+            <div id="exercicio01" class="collapse show" aria-labelledby="bloco01" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>
+                  Uma loja precisa de um programa para simular quanto um vendedor vai receber de salário bruto. Para
+                  isto a loja paga um salário comercial de 1.300 reais + 10% de comissão em cima do total de vendas. O
+                  vendedor irá usar o simulador informando: Quanto ele vendeu no mês, o programa deverá calcular e
+                  mostrar qual será o salário bruto dele no mês.
+                </p>
+                <p>
+                  <a href="exercicio-01.html" class="btn btn-info btn-sm">Abrir exercício</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="bloco02">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio02"
+                  aria-expanded="false" aria-controls="bloco02">
+                  Exercicio 02
+                </button>
+              </h5>
+            </div>
+            <div id="exercicio02" class="collapse" aria-labelledby="bloco02" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>
+                  Crie um programa que leia 5 nomes de pessoas, em seguida o programa deverá imprimir esses 5 nomes em
+                  Letras maiúsculas. Sabemos que as linguagens de programação oferecem alguns recursos chamados
+                  bibliotecas que permitem expandir a capacidade das linguagens. O portugol possuí uma biblioteca
+                  chamada Texto que permite o uso de uma função chamada caixa_alta() para converter textos para letras
+                  maiúsculas.
+                </p>
+                <p>
+                  <a href="exercicio-02.html" class="btn btn-info btn-sm">Abrir exercício</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="bloco03">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio03"
+                  aria-expanded="false" aria-controls="bloco03">
+                  Exercicio 03
+                </button>
+              </h5>
+            </div>
+            <div id="exercicio03" class="collapse" aria-labelledby="bloco03" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>
+                  Crie um programa que leia 10 números, ao final ele deverá mostrar: total, média, o maior número
+                  digitado e o menor número digitado.
+                </p>
+                <p>
+                  <a href="exercicio-03.html" class="btn btn-info btn-sm">Abrir exercício</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="bloco04">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio04"
+                aria-expanded="false" aria-controls="bloco04">
+                Exercicio 04
+              </button>
+            </h5>
+          </div>
+          <div id="exercicio04" class="collapse" aria-labelledby="bloco04" data-parent="#accordionExample">
+            <div class="card-body">
+              <p>
+                Crie um programa que leia 10 números ao final ele deverá escrever os números na ordem digita e depois na
+                ordem inversa.
+              </p>
+              <p>
+                <a href="exercicio-04.html" class="btn btn-info btn-sm">Abrir exercício</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="bloco05">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio05"
+                aria-expanded="false" aria-controls="bloco05">
+                Exercicio 05
+              </button>
+            </h5>
+          </div>
+          <div id="exercicio05" class="collapse" aria-labelledby="bloco05" data-parent="#accordionExample">
+            <div class="card-body">
+              <p>
+                Crie um programa para os professores de uma escola pública de primeiro grau onde o professor possa
+                simular se um determinado aluno será aprovado ou reprovado, os alunos podem tirar no máximo 25 pontos
+                por bimestre é a média de aprovação é de 15pontos, se o aluno tiver umanota menor 40 ele estará
+                reprovado se ele ficar com uma nota entre 40 e 60 ele estará de recuperação.
+              </p>
+              <p>
+                <a href="exercicio-05.html" class="btn btn-info btn-sm">Abrir exercício</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="bloco06">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio06"
+                aria-expanded="false" aria-controls="bloco06">
+                Exercicio 06
+              </button>
+            </h5>
+          </div>
+          <div id="exercicio06" class="collapse" aria-labelledby="bloco06" data-parent="#accordionExample">
+            <div class="card-body">
+              <p>
+                Crie um algoritmo que leia dois valores inteiros distintos, ao final mostre qual é maior.
+              </p>
+              <p>
+                <a href="exercicio-06.html" class="btn btn-info btn-sm">Abrir exercício</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="bloco07">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio07"
+                aria-expanded="false" aria-controls="bloco07">
+                Exercicio 07
+              </button>
+            </h5>
+          </div>
+          <div id="exercicio07" class="collapse" aria-labelledby="bloco07" data-parent="#accordionExample">
+            <div class="card-body">
+              <p>
+                Agora você deverá criar um programa unindoas atividades 1, 2, 5, 6. Cada uma das atividades
+                desenvolvidasdeveráser uma função, o programa deverá ter um menu para que o usuário possa escolher qual
+                função/atividadeele deseja executar. De acordo com a opção escolhida o programa deverá executar
+                completamente todo o algoritmo sem ser necessário passar parâmetros e retornar valores. Ao final da
+                execução de cada programa você deverá perguntar ao usuário se ele quer executar novamente aquela função
+                ou se ele deseja voltar ao menu para executar outra opção.Além disto no menu você deve criar uma opção
+                para ele sair do programa.
+              </p>
+              <p>
+                <a href="exercicio-07.html" class="btn btn-info btn-sm">Abrir exercício</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="bloco08">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio08"
+                aria-expanded="false" aria-controls="bloco08">
+                Exercicio 08
+              </button>
+            </h5>
+          </div>
+          <div id="exercicio08" class="collapse" aria-labelledby="bloco08" data-parent="#accordionExample">
+            <div class="card-body">
+              <p>
+                Uma loja precisa de um programa para simular quanto um vendedor vai receber de salário líquido. A loja
+                paga 10% de comissão em cima do total de vendas. O vendedor irá usar o simulador informando: Seu salário
+                base e o que ele vendeu no mês, o programa deverá calcular e mostrar qual será o salário liquido dele no
+                mês. Sobre o salário bruto do funcionário incide alguns descontos como INSS e IRRF.
+              </p>
+              <p>
+                <a href="exercicio-08.html" class="btn btn-info btn-sm">Abrir exercício</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="bloco09">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio09"
+                aria-expanded="false" aria-controls="bloco06">
+                Exercicio 09
+              </button>
+            </h5>
+          </div>
+          <div id="exercicio09" class="collapse" aria-labelledby="bloco09" data-parent="#accordionExample">
+            <div class="card-body">
+              <p>
+                Um cinema solicitou a você que crie um programa para que as pessoas possam saber se podem ou não
+                assistir um determinado filme em Cartaz. Você deverá verificar a idade do cliente e a classificação do
+                filme para saber se o cliente pode ou não assistir aquele filme.Tabela brasileira de classificação de
+                filmes: https://pt.wikipedia.org/wiki/Sistema_de_Classificação_Indicativa_Brasileiro
+              </p>
+              <p>
+                <a href="exercicio-09.html" class="btn btn-info btn-sm">Abrir exercício</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="bloco10">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#exercicio10"
+                aria-expanded="false" aria-controls="bloco10">
+                Exercicio 10
+              </button>
+            </h5>
+          </div>
+          <div id="exercicio10" class="collapse" aria-labelledby="bloco10" data-parent="#accordionExample">
+            <div class="card-body">
+              <p>
+                Crie no seu programa uma funçãoque receba o nome de uma pessoa e escreva na tela a seguinte mensagem:
+                “NomePessoavocê é brasileiro e não deve desistir nunca, se você conseguiu fazer este programa já é um
+                grande começo como programador”. </p>
+              <p>
+                <a href="exercicio-10.html" class="btn btn-info btn-sm">Abrir exercício</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!--#endregion-->
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+
+  <script>
+    feather.replace()
+  </script>
 </body>
 
 </html>
