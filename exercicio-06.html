@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/dashboard.css">
+    <link rel="stylesheet" href="assets/css/jsdom.css">
 </head>
 
 <body>
@@ -99,8 +100,7 @@
             <!--#endregion-->
             <!--#region Conteudo Principal-->
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-                <div
-                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h1 class="h2">Exercicio 06</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
@@ -109,12 +109,27 @@
                         </ol>
                     </nav>
                 </div>
+                <form>
                 <div class="row">
                     <div class="col-sm-12">
                         <p>Crie um algoritmo que leia dois valores inteiros distintos, ao final mostre qual é maior.</p>
                     </div>
                 </div>
-        </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-8">
+                        <label for="valorUm1">Valor 1: </label>
+                        <input id="valorUm1" type="number" class="form-control" required>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-8">
+                        <label for="valorDois2">Valor 2: </label>
+                        <input id="valorDois2" type="number" class="form-control" required>
+                    </div>
+                    <div class="col-sm-12 col-md-2 col-lg-11 pt-29">
+                        <button type="button" class="btn btn-success" onclick="testarValores()">Simular</button>
+                    </div>
+                    <div class="row invisible" id="mensagemResul"></div>
+                </div>
+            </form>
         </main>
         <!--#endregion-->
     </div>
@@ -124,7 +139,7 @@
         crossorigin="anonymous"></script>
     <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
-
+    <script src="assets/js/exercico06.js"></script>
     <script>
         feather.replace()
     </script>
